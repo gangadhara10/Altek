@@ -1,0 +1,59 @@
+
+*{margin:0px;padding: 0px;}
+
+
+.image-container img 
+{
+  width: 700;
+  height: 500px;
+  
+  margin-left: 200px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  
+}
+
+p
+{
+    position: relative;top: 380px;
+    
+    margin-left: 250px;
+    font-family: Calibri Light;
+    font-size: 45px;
+   margin-bottom: 10px;
+   color:#687fbc;
+    
+}
+.cc
+{
+   position: relative;top: 470px;
+    position: relative;right: 0px;
+  
+    margin-left: 250px;
+    margin-top: 10px;
+   margin-right: 10px;
+   font-size: 15.5px;
+   font-family:Times Segoe UI Semilight;
+   color: rgb(104, 99, 99);
+
+}
+.cd
+{
+    position: relative;top:350px;
+    font-family:Segoe UI;
+    font-size: 30px;
+    color: #5e5858;
+}
+.ce
+{
+
+    position: relative;top:350px;
+    font-size: 26px;
+    color: rgb(132, 131, 131);
+}
+
+
+
+
+
+    

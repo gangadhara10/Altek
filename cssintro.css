@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <style type="text/css">
+             h1 {color: blue}
+            .tree {color:aqua}
+            .sky{color:chartreuse}
+            .moon{color:darkolivegreen}
+            .mango {color:brown}
+
+            
+            #sky{font-family: 'Courier New', Courier, monospace;}
+            #tree{font-family: 'Courier New', Courier, monospace;}
+            #mango{font-family: 'Courier New', Courier, monospace;}
+            #moon{font-family: 'Courier New', Courier, monospace;}
+        
+            
+        </style>
+         
+</head>
+
+<body>
+    <h1 class="tree" id="tree">tree</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugiat, eos excepturi velit officiis, beatae ex ullam eius nemo atque saepe amet debitis distinctio harum reiciendis vel sit sapiente! Reiciendis?
+    </p>
+
+    <h1 class="mango" id="mango">mango</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugiat, eos excepturi velit officiis, beatae ex ullam eius nemo atque saepe amet debitis distinctio harum reiciendis vel sit sapiente! Reiciendis?
+    </p>
+
+    <h1 class="sky" ID="sky">sky</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugiat, eos excepturi velit officiis, beatae ex ullam eius nemo atque saepe amet debitis distinctio harum reiciendis vel sit sapiente! Reiciendis?
+    </p>
+
+    <h1 class="tree">bans</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugiat, eos excepturi velit officiis, beatae ex ullam eius nemo atque saepe amet debitis distinctio harum reiciendis vel sit sapiente! Reiciendis?
+    </p>
+
+    <h1 class="moon" ID="moon">moon</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugiat, eos excepturi velit officiis, beatae ex ullam eius nemo atque saepe amet debitis distinctio harum reiciendis vel sit sapiente! Reiciendis?
+    </p>  
+    
+</body>
+</html>

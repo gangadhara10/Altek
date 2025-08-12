@@ -1,0 +1,55 @@
+/*
+ul{
+    background-color: lightgray;
+    width:120px;
+}
+
+ul li{
+    color:red;
+}
+#dad li
+{
+    color:purple;
+    
+}
+#mom li{
+    color:orange;
+}
+#dad li:first-child{color: blue;}
+#dad li:last-child{color: rgb(26, 184, 63);}
+#mom li:first-child{color:brown;}
+li{color:aqua}
+
+
+a{
+text-decoration: none;
+}
+
+a:hover
+{
+ text-decoration: underline;
+}
+
+
+a:visited{
+    color: red;
+}
+
+a:active{
+    color:black
+}
+*/
+
+
+table{
+    background-color: red;
+    
+}
+table tr{
+    color: purple;
+}
+table th{
+    color:white;
+}
+  
+    

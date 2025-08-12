@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\web design\html\html2\calculator.css"/>
+    <script>
+        function sum()
+        {
+            var fv=parseInt( document.getElementById("f").value );//"10"
+             var sv=parseInt( document.getElementById("s").value ); //"20"
+
+             var ope=document.getElementById("op").value; //"+"
+ 
+             if(ope === '+')
+             {
+                document.getElementById("r").value=fv+sv;
+             }
+             else if (ope==='-')
+             {
+                document.getElementById("r").value=fv-sv;
+             }
+
+              else if (ope==='-')
+             {
+                document.getElementById("r").value=fv*sv;
+             }
+
+              else if (ope==='/')
+             {
+                document.getElementById("r").value=fv/sv;
+             }
+
+
+             document.getElementById("f").value="";
+             document.getElementById("s").value="";
+
+        }//close sum()
+        
+
+    </script>
+</head>
+<body>
+    <div id="center-all">
+      
+         <input type="text" id="f"/><br>
+    <input type="text" id="s"/><br><br>
+    <input type="text" id="r"/> <br><br>
+
+    <select id="op">
+       <option value ="+">++</option>
+       <option value ="-">--</option>
+        <option value ="*">**</option>
+       <option value ="/">//</option>
+
+
+    </select>
+     <button onmouseover="style= 'color:red'  " id="bt" onclick ="sum()">=</button>
+    <br><br>
+
+   
+
+   
+
+   
+
+
+    </div>
+    
+</body>
+</html>

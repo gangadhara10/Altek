@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sum()
+        {
+            var fv=parseInt( document.getElementById("f").value );//"10"
+             var sv=parseInt( document.getElementById("s").value ); //"20"
+
+             var ope=document.getElementById("op").value; //"+"
+ 
+             if(ope === '+')
+             {
+                document.getElementById("r").value=fv+sv;
+             }
+
+             document.getElementById("f").value="";
+             document.getElementById("s").value="";
+
+        }//close sum()
+
+    </script>
+</head>
+<body>
+    <input type="text" id="f"/><br>
+    <input type="text" id="s"/><br><br>
+
+    <select id="op">
+       <option value ="+">++</option>
+       <option value ="-">--</option>
+
+    </select>
+    <br><br>
+
+    <input type="text" id="r" />  <br> <br>
+
+    <button onmouseover="style = 'color:red'  "  onclick ="sum()"   >=</button>
+
+    
+</body>
+</html>

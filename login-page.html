@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\web design\html\html2\login-page.css">
+    <script>
+      function check_form()
+      {
+
+     
+      var un =  document.getElementById('name').value;
+      var pw =  document.getElementById('pw').value;
+
+        if (un === "" || pw ==="" )
+        {
+          alert ("plz ent un or pw");
+          return false; // it stops action
+        }
+        else{
+          alert ('submitted un and pw');
+          return true;  // it start action
+        }
+        
+      } 
+
+    </script>
+</head>
+<body >
+    <div class="image-container">
+
+  <img class="p1" width="400" height="600px" src="../web page 6.jpg">
+  
+  <aside id="main-aside1">
+
+ <form action ="imagechange.html" method ="post" onSubmit="return check_form();">
+ 
+
+	 <p id="na">user name </p><br>   <input type="text" id="name" /><br><br>
+   <p id="pp"> password </p> <br>   <input type="password" id="pw" /><br><br>
+
+  <input  id="su" type="submit"  value="login" /> <br><br>  
+
+  <input id="fr" type="forget password"  value="Forget password" />
+  
+</form>  
+
+  </aside>
+</div>
+    
+   
+
+    
+
+    
+</body>
+</html>
+
+

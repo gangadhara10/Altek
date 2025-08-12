@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{margin: 0px; padding: 0px;}
+       #main-header{
+        width:100%;
+        height: 100px;
+        margin-bottom: 10px;
+        background-color: grey;
+       }
+       #main-nav{
+        width:100%;
+        height: 50px;
+        background-color: rgb(150, 214, 163);
+       }
+       #center-all{
+        width: 600px;
+        height: 300px;
+        background-color: grey;
+        margin: auto;
+        margin-top: 50px;
+       }
+
+    </style>
+    
+    
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        // 1.document .write
+
+        
+
+        
+/*
+
+
+        document .write("hii.. am from js")
+        document .write("<br> hii... am from <h1> js</h1> ");
+        
+
+        // 2.data type => data
+
+        k=5;
+        kk="ram";
+        document .write("name="+kk+"sum="+(k+k));
+
+        //int
+        var a=10;
+       var b=20;
+      document .write("<br>sum="+(a+b));
+      //float
+
+      var pie=3.14;
+     document .write(    " <br>sum="+(a+b+pie));
+
+     //string
+ var a=10 ;
+var b=20;
+     var name="ram";
+     var name2="sita";
+     var name3="altek";
+     names=name+name2;
+     names3=name+"and"+name2
+    document .write( "<br>"+  names3);
+
+    //ram is in altek
+    document.write(name +'is in \'altek\'\n ' );
+    document.write("\n" + name + " and " + name2 + " are working in " + name3 + "<br>");
+    //"ram" and "sita" are from "altek"
+
+
+
+/*
+   //4. alert (message box)
+
+   alert("hii");
+
+   // 5.promft(input box)
+
+   var a = Number(prompt("enter a value"));
+   var b=Number ( prompt( " enter b value"));
+   var c=a+b;
+   alert("sum="+c);
+
+   // 6.branching statements
+
+   1.if
+   2.if else
+   3.else if
+   4.nested if
+   
+
+ //1.if else
+  // biggest of two integers
+  
+var a = Number(prompt("Enter a  value"));
+var b = Number(prompt("Enter b value"));
+
+if (a > b) 
+{
+    alert("The biggest number is: " + a);
+} 
+else 
+{
+    alert("The  smallest  number is: " + b);
+}
+    
+
+// smallest of two integers
+
+var a = Number(prompt("Enter a  value"));
+var b = Number(prompt("Enter b value"));
+
+if (a < b) 
+{
+    alert( " a is small");
+} 
+else 
+{
+    alert(" b is small");
+}
+
+
+// entered nuber is positive or negative
+
+var a = Number(prompt("Enter n value"));
+if(a>0)
+{
+    alert( " positive");
+    document .write("positive");
+}
+else
+{
+  document .write("negative");
+alert( " negative");
+}
+
+
+// odd or even program
+
+var n= Number(prompt("Enter n value"));
+if(n %2 == 0)
+{
+    alert( " even value");
+    document .write("even value ");
+}
+else
+{
+  document .write(" odd value   ");
+alert( " oddd value ");
+}
+
+
+
+		var maths=Number(prompt ("enter maths marks"));
+        var english =Number(prompt ("enter maths marks"));
+        var hindi   =Number(prompt ("enter maths marks"));
+        var social =Number(prompt ("enter maths marks"));
+        var seince  =Number(prompt ("enter maths marks"));
+       
+		
+		if(maths<35||english<35||hindi<35||social<35||seince<35)
+		{
+		 alert	("student fail");
+         document .write("student fail");
+		}
+		else
+		{
+		alert("student pass");
+        document .write("student pass");
+			
+		}
+        
+
+                     //2.else if
+                       
+    var n= Number(prompt ("enter 1.sunday\n   2.monday\n  3.tuesday\n    4. wednsday\n  5.thuresday\n  6.friday\n  7.saturday\n"));
+    if(n==1)
+    {
+        document .write("enter your choosen sunday");
+        alert("enter your choosen sunday");
+    }
+    else  if(n==2)
+    {
+        document .write("enter your choosen monday");
+        alert("enter your choosen monday");
+    }
+
+   else if(n==3)
+    {
+        document .write("enter your choosen tuesday");
+        alert("enter your choosen tuesday");
+    }
+
+   else if(n==4)
+    {
+       document .write("enter your choosen wednsady");
+       alert("enter your choosen wednsady");
+    }
+     
+   else if(n==5)
+    {
+        document.write("enter your choosen thursday");
+        alert("enter your choosen thursday");
+    }
+     
+    else if(n==6)
+    {
+        document .write("enter your choosen friday");
+        alert("enter your choosen friday");
+    }
+    else if(n==7)
+    {
+        document .write("enter your choosen saturday");
+        alert("enter your choosen saturday");
+    }
+     
+
+      var n= Number(prompt ("enter 1.addition\n   2.subtraction\n  3.multiplication\n    4. division\n  "));
+    if(n==1)
+    {
+       var a = Number(prompt("enter a value"));
+       var b=Number ( prompt( " enter b value"));
+       var c=a+b;
+       alert("addition of two val is ="+c); 
+    }
+    else if(n==2)
+    {
+       var a = Number(prompt("enter a value"));
+       var b=Number ( prompt( " enter b value"));
+       var c=a-b;
+       alert("subtraction of two val is ="+c); 
+       
+    }
+
+   else if(n==3)
+    {
+       var a = Number(prompt("enter a value"));
+       var b=Number ( prompt( " enter b value"));
+       var c=a*b;
+       alert("multiplication of two val is ="+c); 
+    }
+
+   else if(n==4)
+    {
+     var a = Number(prompt("enter a value"));
+     var b=Number ( prompt( " enter b value"));
+     var c=a/b;
+     alert("division of two val is ="+c); 
+    }
+     
+       var maths  =Number(prompt ("enter maths marks"));
+        var english =Number(prompt ("enter english marks"));
+    
+        var social =Number(prompt ("enter social marks"));
+        var seince  =Number(prompt ("enter seince marks"));
+       var total= english+social+seince+maths;
+       var avg=total/4;
+
+       if(maths<35)
+       {
+         alert("maths="+maths+"\n"
+					+"<br>\nenglish="+english
+					+"<br>\nseince="+seince
+					+"<br>\nsocial="+social
+					+"<br>\ntotal="+total
+					+"<br>\navg="+avg
+					+"<br>\nresult=fail ");
+       }
+       else if(english<35)
+		     {
+			alert("maths="+maths+"\n"
+					+"<br>\nenglish="+english
+					+"<br>\nseince="+seince
+					+"<br>\nsocial="+social
+					+"<br>\ntotal="+total
+					+"<br>\navg="+avg
+					+"<br>\nresult=fail");
+			
+		     }
+		    else if(seince<35)
+				  {
+				   alert("maths="+maths+"\n"
+					+"<br>\nenglish="+english
+					+"<br>\nseince="+seince
+					+"<br>\nsocial="+social
+					+"<br>\ntotal="+total
+					+"<br>\navg="+avg
+					+"<br>\nresult=fail");	
+				  }
+		         else if(social<35)
+		              {
+		        	    alert("maths="+maths+"\n"
+					+"<br>\nenglish="+english
+					+"<br>\nseince="+seince
+					+"<br>\nsocial="+social
+					+"<br>\ntotal="+total
+					+"<br>\navg="+avg
+					+"v\nresult=fail");
+		              }
+		              else if(avg>=75)
+		                   {
+		        	        document.write("\nmaths\t\t=\t"+maths
+					        		+"<br> \nenglish\t\t=\t"+english
+					        		+"<br>\nseince\t\t=\t"+seince
+					        		+"<br>\nsocial\t\t=\t"+social
+					        		+"<br>\ntotal\t\t=\t"+total
+					        		+"<br>\navg\t\t=\t"+avg
+					        		+"<br>\nresult\t\t=\tpass"
+					        		+"<br>\nclass\t\t=\tI ");
+		        	         
+		                   }
+		                   else if(avg>=60)
+		                        {
+		                	      document.write("\nmaths\t\t=\t"+maths
+							            +"<br> \nenglish\t\t=\t"+english
+							        	+"<br>\nseince\t\t=\t"+seince
+							        	+"<br>\nsocial\t\t=\t"+social
+							        	+"<br>\ntotal\t\t=\t"+total
+										+"<br>\navg\t\t=\t"+avg
+			        					+"<br>\nresult\t\t=\tpass"
+							        	+"<br>\nclass\t\t=\tII");
+		                        }
+                                else
+                                {
+                                                
+                               document.write("\nmaths\t=\t"+maths
+                                +"<br>\nenglish\t=\t"+english
+                                +"<br>\nseince\t=\t"+seince
+                                +"<br>\nsocial\t=\t"+social
+                                +"<br>\ntotal\t=\t"+total
+                                +"<br>\navg\t=\t"+avg
+                                +"<br>\nresult\t=\tpass"
+                                +"<br>\nclass\t=\tIII");
+                                            }
+                                            
+                
+               function altek()
+               {
+                document.write("am from altek ")
+                
+               }
+
+               function add(x,y)
+               {
+                document.write("  sum="+(x+y));
+               }
+
+               function mul(x,y)
+               {
+                return(x*y);
+               }
+            
+
+         s=mul(10,20) +"<br>"
+         document.write("s="+s)
+              add(10,20);+
+               altek();
+               
+function disp_name()
+{
+    var s=document.getElementById("spn1");
+    s.innerHTML="ram";
+   
+    document.getElementById("spn2").innerHTML="sita";
+}
+function sayHello() {
+  return "Hello, welcome to JavaScript!";
+}
+
+var message = sayHello(); // Call the function and store return value
+document.write(message);
+            
+
+               //onclick -> function
+/*
+               function disp_hi()
+               {
+                alert("hii")
+               }
+                
+// natural numbers
+ var i = 1;
+    while (i <= 10) {
+        document.write("Natural Number: " + i + "<br>");
+        i++;
+    }
+
+     var n = Number(prompt("Enter n numbers:")); // Take input from user
+    var i = 1;
+
+    while (i <= n) {
+        document.write("Natural Number: " + i + "<br>");
+        i++;
+    }
+  
+   var s=0;
+    var n = Number(prompt("Enter n value:"));
+    for(i=1  ; i<=n  ; i++)
+{
+    s=s+i;
+}
+document.write("sum of the n natural numbers"+s+"<br>");
+  
+   
+  var n = Number(prompt("Enter n value:"));
+    for(s=0  ; n>0  ; n=n/10)
+{
+    var d=n%d;
+   var  s=s+d;
+}
+
+document.write("sum of the digit of the   123 vl is" + s);
+*/
+        
+
+var i=1;
+function  change_pic()
+{
+    var pic=document.getElementById("pic1")
+
+ if(i==1)
+{
+    pic.src="2.jpg";
+    i=2
+}
+else{
+    pic.src="55.jpg";
+    i=1;
+}
+
+}
+setInterval("change_pic()" ,1000);
+ 
+    </script>
+<img src="55.jpg" onclick=""   id="pic1" />
+   
+
+
+
+<header id="main-header"></header>
+<nav id="main-nav"></nav>
+
+<div id="center-all">
+
+</div>
+
+</body>
+</html>
+<!--
+  <button onclick="disp_name();" >click</button>
+    <br>
+    <span id="spn1">0</span>
+    <br>
+    <span id="spn2">1</span>
+    <br>
+    <span id="spn3">2</span>
+    
+    
+</body>
+</html>
